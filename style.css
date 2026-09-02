@@ -1,136 +1,170 @@
-:root {
-    --red: #c8102e;
-    --black: #0f0f0f;
-    --white: #ffffff;
-}
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HockeyWerkstatt: Individuelles Skills-Training für Nachwuchsspieler im Raum Zürich und Aargau. Von Spielern für Spieler.">
+  <meta name="theme-color" content="#090a0c">
+  <title>HockeyWerkstatt | Von Spielern für Spieler</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
 
-* {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+  <header class="site-header" id="top">
+    <div class="nav-wrap container-wide">
+      <a class="brand" href="#top" aria-label="HockeyWerkstatt Startseite">
+        <img src="images/logo-2b.png" alt="HockeyWerkstatt, Von Spielern für Spieler" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+        <span class="brand-fallback" hidden><strong>HOCKEY</strong><b>WERKSTATT</b></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-nav" aria-label="Hauptnavigation">
+        <a href="#werte">Werte</a>
+        <a href="#trainings">Trainings</a>
+        <a href="#prinzipien">Reels</a>
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#standorte">Standorte</a>
+        <a class="nav-cta" href="#probetraining">Probetraining</a>
+      </nav>
+    </div>
+  </header>
 
-body {
-    font-family:'Montserrat', sans-serif;
-    background:#111;
-    color:white;
-    line-height:1.6;
-}
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="mountains" aria-hidden="true"></div>
+      <div class="ice-glow" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <p class="eyebrow">Skills Training · Zürich &amp; Aargau</p>
+        <h1 id="hero-title">Mehr als<br><span>Hockeytraining.</span></h1>
+        <p class="hero-lead">Wir entwickeln Spieler.</p>
+        <p class="hero-copy">Individuelles Skills-Training mit Fokus auf Technik, Spielverständnis und nachhaltige Entwicklung.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#probetraining">Probetraining anfragen</a>
+          <a class="btn btn-ghost" href="#trainings">Trainings entdecken</a>
+        </div>
+        <ul class="hero-values" aria-label="Unsere vier Werte">
+          <li>Technik</li><li>Leidenschaft</li><li>Entwicklung</li><li>Teamgeist</li>
+        </ul>
+      </div>
+      <a class="scroll-cue" href="#intro" aria-label="Weiter zum Inhalt"><span></span></a>
+    </section>
 
-.hero {
-    height:100vh;
-    background:
-    linear-gradient(rgba(0,0,0,0.65),
-    rgba(0,0,0,0.65)),
-    url('https://images.unsplash.com/photo-1515703407324-5f753afd8be8?auto=format&fit=crop&w=1600&q=80');
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-}
+    <section class="statement" id="intro">
+      <div class="container narrow reveal">
+        <p class="section-kicker">Die HockeyWerkstatt</p>
+        <h2>Talent ist der Anfang.<br><span>Technik macht den Unterschied.</span></h2>
+        <p>Saubere Grundlagen, konsequentes Training und echte Freude am Sport schaffen Fortschritt. Wir fördern Spieler individuell und geben ihnen Werkzeuge mit, die auf dem Eis zählen.</p>
+        <blockquote>„Wir sind nicht die grösste Hockeyschule. Wir wollen die sein, die Spieler besser macht.“</blockquote>
+      </div>
+    </section>
 
-.hero-overlay {
-    max-width:900px;
-    padding:20px;
-}
+    <section class="values section-dark" id="werte">
+      <div class="container-wide">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Unser Fundament</p>
+          <h2>Vier Werte. Ein Ziel.</h2>
+        </div>
+        <div class="value-grid">
+          <article class="value-card reveal">
+            <span class="value-number">01</span><div class="value-icon">◎</div>
+            <h3>Technik</h3><p>Saubere Bewegungen, präzise Ausführung und starke Grundlagen.</p>
+          </article>
+          <article class="value-card reveal">
+            <span class="value-number">02</span><div class="value-icon">♥</div>
+            <h3>Leidenschaft</h3><p>Freude am Hockey und voller Einsatz in jedem Training.</p>
+          </article>
+          <article class="value-card reveal">
+            <span class="value-number">03</span><div class="value-icon">↗</div>
+            <h3>Entwicklung</h3><p>Individuelle Ziele, ehrliches Feedback und sichtbarer Fortschritt.</p>
+          </article>
+          <article class="value-card reveal">
+            <span class="value-number">04</span><div class="value-icon">◆</div>
+            <h3>Teamgeist</h3><p>Gemeinsam lernen, Verantwortung übernehmen und zusammen wachsen.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-h1 {
-    font-family:'Bebas Neue', sans-serif;
-    font-size:6rem;
-    letter-spacing:3px;
-}
+    <section class="training" id="trainings">
+      <div class="container-wide">
+        <div class="section-heading split reveal">
+          <div><p class="section-kicker">Angebot</p><h2>Training mit Plan.</h2></div>
+          <p>Fokussierte Einheiten in kleinen Gruppen, damit jede Wiederholung zählt.</p>
+        </div>
+        <div class="training-grid">
+          <article class="training-card reveal"><span>01</span><h3>Skills Development</h3><ul><li>Stickhandling</li><li>Puck Control</li><li>Edge Work</li><li>Hockey IQ</li></ul></article>
+          <article class="training-card reveal"><span>02</span><h3>Shooting Clinic</h3><ul><li>Handgelenkschuss</li><li>Snap Shot</li><li>One-Timer</li><li>Schusspräzision</li></ul></article>
+          <article class="training-card reveal"><span>03</span><h3>Power Skating</h3><ul><li>Beschleunigung</li><li>Kantenarbeit</li><li>Balance</li><li>Geschwindigkeit</li></ul></article>
+          <article class="training-card reveal"><span>04</span><h3>Skills Camps</h3><ul><li>Intensive Einheiten</li><li>Small Area Games</li><li>Individuelles Feedback</li><li>Gemeinsamer Fortschritt</li></ul></article>
+        </div>
+      </div>
+    </section>
 
-.slogan {
-    color:var(--red);
-    font-size:1.5rem;
-    margin-bottom:20px;
-}
+    <section class="principles section-red" id="prinzipien">
+      <div class="container-wide">
+        <div class="section-heading light reveal"><p class="section-kicker">Instagram-Serie</p><h2>HockeyWerkstatt Prinzipien</h2></div>
+        <div class="episodes">
+          <article class="episode reveal"><span>Folge 01</span><h3>Warum Technik wichtiger ist als Talent</h3><p>Talent fällt auf. Technik wird erarbeitet.</p></article>
+          <article class="episode reveal"><span>Folge 02</span><h3>Leidenschaft schlägt Motivation</h3><p>Motivation kommt und geht. Leidenschaft bleibt.</p></article>
+          <article class="episode reveal"><span>Folge 03</span><h3>Entwicklung beginnt ausserhalb der Komfortzone</h3><p>Besser werden beginnt dort, wo es anspruchsvoll wird.</p></article>
+          <article class="episode reveal"><span>Folge 04</span><h3>Warum Teamgeist Spiele verändert</h3><p>Starke Spieler wachsen in starken Teams.</p></article>
+        </div>
+      </div>
+    </section>
 
-.intro {
-    font-size:1.2rem;
-    margin-bottom:30px;
-}
+    <section class="about" id="ueber-uns">
+      <div class="container-wide about-grid">
+        <div class="about-visual reveal" aria-label="Grafische Alpen- und Eis-Darstellung"><div class="puck"></div></div>
+        <div class="about-copy reveal">
+          <p class="section-kicker">Unsere Geschichte</p>
+          <h2>Von Spielern<br>für Spieler.</h2>
+          <p>Wir haben viele Jahre selbst Eishockey gespielt und kennen den Weg eines Nachwuchsspielers aus eigener Erfahrung.</p>
+          <p>Die HockeyWerkstatt verbindet unsere Begeisterung für die alten Hockeyzeiten mit einem modernen, strukturierten Skills-Training für die nächste Generation.</p>
+          <a class="text-link" href="#probetraining">Lerne die HockeyWerkstatt kennen <span>→</span></a>
+        </div>
+      </div>
+    </section>
 
-.buttons {
-    display:flex;
-    justify-content:center;
-    gap:15px;
-    flex-wrap:wrap;
-}
+    <section class="locations section-dark" id="standorte">
+      <div class="container-wide">
+        <div class="section-heading reveal"><p class="section-kicker">Auf dem Eis</p><h2>Unsere Region.</h2></div>
+        <div class="location-grid">
+          <div class="location reveal"><span>ZH</span><h3>Zürich</h3><p>Geplante Skills-Trainings und Camps.</p></div>
+          <div class="location reveal"><span>ZH</span><h3>Kloten</h3><p>Geplanter Trainingsstandort.</p></div>
+          <div class="location reveal"><span>AG</span><h3>Aargau</h3><p>Geplante Angebote in der Region.</p></div>
+        </div>
+        <p class="location-note">Konkrete Eiszeiten und Standorte werden nach Bestätigung veröffentlicht.</p>
+      </div>
+    </section>
 
-.btn-red,
-.btn-dark {
-    padding:15px 30px;
-    text-decoration:none;
-    font-weight:bold;
-    border-radius:5px;
-}
+    <section class="signup" id="probetraining">
+      <div class="container narrow reveal">
+        <p class="section-kicker">Dein nächster Schritt</p>
+        <h2>Bereit, an deinen Skills zu arbeiten?</h2>
+        <p>Trage dich unverbindlich ein. Wir informieren dich über Probetrainings, Camps und neue Eiszeiten.</p>
+        <form class="interest-form" action="mailto:info@hockeywerkstatt.ch" method="post" enctype="text/plain">
+          <div class="form-row"><label><span>Name</span><input type="text" name="Name" autocomplete="name" required></label><label><span>E-Mail</span><input type="email" name="E-Mail" autocomplete="email" required></label></div>
+          <label><span>Nachricht</span><textarea name="Nachricht" rows="4" placeholder="Alter, Verein und Trainingsinteresse"></textarea></label>
+          <button class="btn btn-primary" type="submit">Interesse anmelden</button>
+        </form>
+        <p class="form-note">Hinweis: Das Formular öffnet das E-Mail-Programm. Ersetze die Adresse im HTML, sobald eure definitive Kontaktadresse feststeht.</p>
+      </div>
+    </section>
+  </main>
 
-.btn-red {
-    background:var(--red);
-    color:white;
-}
-
-.btn-dark {
-    background:#333;
-    color:white;
-}
-
-section {
-    padding:80px 10%;
-}
-
-h2 {
-    text-align:center;
-    margin-bottom:40px;
-    font-size:2.5rem;
-}
-
-.values-grid {
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-}
-
-.card {
-    background:#1a1a1a;
-    padding:30px;
-    border-left:4px solid var(--red);
-    border-radius:8px;
-}
-
-.card h3 {
-    margin-bottom:10px;
-}
-
-.container {
-    max-width:900px;
-    margin:auto;
-    text-align:center;
-}
-
-blockquote {
-    margin-top:40px;
-    font-size:1.5rem;
-    color:var(--red);
-}
-
-footer {
-    background:black;
-    text-align:center;
-    padding:50px 20px;
-}
-
-@media(max-width:768px) {
-
-    h1 {
-        font-size:4rem;
-    }
-
-    h2 {
-        font-size:2rem;
-    }
-
-}
+  <footer>
+    <div class="container-wide footer-grid">
+      <div class="footer-brand"><img src="images/logo-2b.png" alt="HockeyWerkstatt" onerror="this.hidden=true"><p>Technik · Leidenschaft · Entwicklung · Teamgeist</p></div>
+      <div><h3>Navigation</h3><a href="#trainings">Trainings</a><a href="#werte">Unsere Werte</a><a href="#ueber-uns">Über uns</a></div>
+      <div><h3>Kontakt</h3><a href="mailto:info@hockeywerkstatt.ch">info@hockeywerkstatt.ch</a><a href="#">Instagram</a><p>Zürich &amp; Aargau</p></div>
+    </div>
+    <div class="footer-bottom container-wide"><span>© <span id="year"></span> HockeyWerkstatt</span><a href="#top">Nach oben ↑</a></div>
+  </footer>
+</body>
+</html>
