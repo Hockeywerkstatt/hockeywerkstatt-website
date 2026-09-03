@@ -90,3 +90,26 @@ section{padding:110px 0}.statement{text-align:center;background:var(--ice);color
     font-size:1.1rem;
     line-height:1.8;
 }
+.brand-mark{
+    background:#0c0e11;
+    padding:100px 20px;
+    text-align:center;
+}
+
+.brand-logo{
+    width:220px;
+    max-width:80%;
+    margin-bottom:25px;
+}
+
+.brand-mark h2{
+    font-family:var(--title);
+    font-size:3rem;
+    text-transform:uppercase;
+    margin-bottom:15px;
+}
+
+.brand-mark p{
+    color:#cfd5db;
+    letter-spacing:2px;
+}
