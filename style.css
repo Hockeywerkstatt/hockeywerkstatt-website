@@ -12,7 +12,7 @@ section{padding:110px 0}.statement{text-align:center;background:var(--ice);color
 
 .coach-grid{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(3,1fr);
     gap:35px;
     margin-top:50px;
 }
