@@ -51,8 +51,9 @@ section{padding:110px 0}.statement{text-align:center;background:var(--ice);color
 
 .coach-subtitle{
     color:var(--red);
-    font-weight:700;
+    font-weight:600;
     text-transform:uppercase;
+    font-size:0.95rem;
     margin-bottom:20px;
 }
 
@@ -192,4 +193,20 @@ section{padding:110px 0}.statement{text-align:center;background:var(--ice);color
 
 .coach-card:hover{
     transform:translateY(-6px);
+}
+.coach-badge{
+    display:inline-block;
+    background:var(--red);
+    color:#fff;
+
+    padding:8px 16px;
+    margin:0 0 18px 0;
+
+    border-radius:999px;
+
+    font-family:var(--title);
+    font-size:0.9rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
 }
