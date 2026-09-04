@@ -172,10 +172,15 @@ section{padding:110px 0}.statement{text-align:center;background:var(--ice);color
     }
 
 .coach-card h4{
-    color:var(--red);
+    display:inline-block;
+    background:var(--red);
+    color:white;
+    padding:6px 14px;
+    border-radius:999px;
     font-family:var(--title);
     text-transform:uppercase;
-    margin:0 0 18px;
-    font-size:1.1rem;
+    letter-spacing:1px;
+    font-size:0.9rem;
+    margin:0 0 20px;
 }
 
