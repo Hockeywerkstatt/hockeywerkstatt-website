@@ -171,5 +171,11 @@ section{padding:110px 0}.statement{text-align:center;background:var(--ice);color
         width:180px;
     }
 
+.coach-card h4{
+    color:var(--red);
+    font-family:var(--title);
+    text-transform:uppercase;
+    margin:0 0 18px;
+    font-size:1.1rem;
 }
 
