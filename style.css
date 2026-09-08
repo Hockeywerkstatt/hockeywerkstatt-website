@@ -210,3 +210,6 @@ section{padding:110px 0}.statement{text-align:center;background:var(--ice);color
     text-transform:uppercase;
     letter-spacing:1px;
 }
+.goalie-card {
+    grid-column: 1 / -1;
+}
