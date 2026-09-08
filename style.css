@@ -1,5 +1,4 @@
-:root{--black:#090a0c;--charcoal:#111317;--panel:#181b20;--red:#c8102e;--red-dark:#8f0b20;--white:#fff;--ice:#eef3f5;--muted:#a8afb8;--line:rgba(255,255,255,.12);--
-    title:"Barlow Condensed",sans-serif;--body:"Montserrat",sans-serif;--shadow:0 25px 70px rgba(0,0,0,.35)}
+:root{--black:#090a0c;--charcoal:#111317;--panel:#181b20;--red:#c8102e;--red-dark:#8f0b20;--white:#fff;--ice:#eef3f5;--muted:#a8afb8;--line:rgba(255,255,255,.12);--title:"Barlow Condensed",sans-serif;--body:"Montserrat",sans-serif;--shadow:0 25px 70px rgba(0,0,0,.35)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:var(--white);font-family:var(--body);line-height:1.7}a{color:inherit}.container{width:min(1120px,calc(100% - 40px))
 ;margin:auto}.container-wide{width:min(1320px,calc(100% - 48px));margin:auto}.narrow{max-width:880px}.skip-link{position:fixed;left:16px;top:-80px;z-index:999;background:#fff;color:#000;padding:10px 16px}
 .skip-link:focus{top:16px}.site-header{position:fixed;z-index:100;top:0;left:0;right:0;border-bottom:1px solid transparent;transition:.25s}.site-header.scrolled{background:rgba(9,10,12,.94)
