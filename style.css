@@ -33,15 +33,6 @@ section{padding:110px 0}.statement{text-align:center;background:var(--ice);color
     border-top:4px solid var(--red);
 }
 
-.coach-photo{
-    width:100%;
-    aspect-ratio:1/1;
-    object-fit:cover;
-    border-radius:16px;
-    margin-bottom:25px;
-    background:#2a2a2a;
-}
-
 .coach-card h3{
     font-family:var(--title);
     font-size:2.4rem;
@@ -123,25 +114,21 @@ section{padding:110px 0}.statement{text-align:center;background:var(--ice);color
     color:#cfd5db;
     letter-spacing:2px;
 }
-/* Coach Bilder */
-
-
 .coach-photo{
     width:100%;
 
-    /* statt Quadrat */
-    aspect-ratio: 4 / 5;
+    /* Mehr Oberkörper sichtbar */
+    aspect-ratio:4 / 5;
 
     object-fit:cover;
 
-    /* zeigt etwas mehr vom Trikot */
-    object-position:center 10%;
+    /* Bild leicht nach oben verschieben */
+    object-position:center 5%;
 
     border-radius:16px;
     margin-bottom:25px;
 
     border:3px solid rgba(255,255,255,0.08);
-
     box-shadow:0 10px 25px rgba(0,0,0,0.25);
 }
 .hero-values-text{
